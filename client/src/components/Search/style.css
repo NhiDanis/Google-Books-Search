@@ -1,0 +1,11 @@
+.form-control { 
+    margin: 20px;
+    width: 500px;
+}
+
+.center {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+    justify-content: center;
+}

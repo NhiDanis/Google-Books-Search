@@ -8,7 +8,7 @@ class ResultList extends Component {
         console.log("Props", this.props.bookState)
         return (
             this.props.bookState.map((book) => (
-            <SavedListItem 
+            <SaveListItem 
             key={book._id}
             id={book._id}
             title={book.title}
@@ -24,5 +24,5 @@ class ResultList extends Component {
     }
 }
 
-export default ResultList
+export default ResultList;
 

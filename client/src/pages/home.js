@@ -59,14 +59,14 @@ class Home extends Component {
             < Jumbotron />
 
             <form>
-                    <h5 style={{paddingTop:"30px", fontSize:"40px",}}>Search for books</h5>
+                    <h5 style={{paddingTop:"30px", fontSize:"40px", textAlign:"center"}}>Search for books</h5>
                     <Input style={{with:"300px"}}
                         value={this.state.search}
                         onChange={this.handleInputChange}
                         name="search"
                         placeholder="e.g. The Secret"
                     />
-                    <SubmitBtn style={{paddingTop:"30px"}} onClick={this.handleFormSubmit}/>
+                    <SubmitBtn onClick={this.handleFormSubmit}/>
                 </form>
 
                 {this.state.books.length ? (
