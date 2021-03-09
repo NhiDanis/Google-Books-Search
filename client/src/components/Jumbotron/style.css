@@ -1,0 +1,20 @@
+.jumbotron{
+    background-image: url(./Globe-Library.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 600px ;
+}
+
+.myText{
+    color: #b9d8c2;
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 70px;
+}
+
+.myText2 {
+    color: #b9d8c2;
+    float: left;
+    
+}
